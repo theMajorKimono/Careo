@@ -9,7 +9,7 @@ body {
 }
 
 :root {
-    --primary--: #f0f0f0;
+    --primary--: #dedede;
 }
 
 ::-webkit-scrollbar {
@@ -44,11 +44,12 @@ body {
 .background-img {
     height: 100%;
     width: 100%;
-    opacity: 0.5;
+    opacity: 1;
     position: absolute;
     right: 0;
     left: 0;
     object-fit: cover;
+    filter: grayscale(100%);
     -webkit-mask-image: linear-gradient(0deg, rgba(2, 0, 28, 0) 26%, rgba(17, 17, 17, 1) 100%);
 }
 
@@ -64,9 +65,17 @@ body {
 }
 
 .title {
-    color: var(--primary--);
     font-family: 'Open Sans', sans-serif;
     font-size: 10vh;
+    cursor: pointer;
+    user-select: none;
+    display: inline-block;
+    position: relative;
+}
+
+.title a {
+    color: #91dff9;
+    text-decoration: none;
 }
 
 .motive {
@@ -82,7 +91,7 @@ body {
 }
 
 #learnMore {
-    border: 1px solid white;
+    border: 1px solid #91dff9;
     background-color: transparent;
     color: var(--primary--);
     position: absolute;
@@ -97,8 +106,8 @@ body {
 }
 
 #learnMore:hover {
-    background-color: #ffffffd7;
-    border-color: #ffffffd7;
+    background-color: #91dff9;
+    border-color: #ffffff00;
     color: #111111;
     padding-bottom: 5px;
     margin-bottom: 5px;
