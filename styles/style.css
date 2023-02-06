@@ -184,13 +184,13 @@ body {
     border-radius: 20px;
     border: 1px solid #3a3a3a;
     display: flex;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in;
     overflow: hidden;
     user-select: none;
 }
 
 .card1:hover {
-    transform: translate(20px)
+    transform: translate(10px)
 }
 
 .card1:hover .handshake {
@@ -220,13 +220,13 @@ body {
     border-radius: 20px;
     border: 1px solid #3a3a3a;
     display: flex;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in;
     overflow: hidden;
     user-select: none;
 }
 
 .card2:hover {
-    transform: translate(20px);
+    transform: translate(10px);
 }
 
 .card2:hover .package {
@@ -272,13 +272,13 @@ body {
     border-radius: 20px;
     border: 1px solid #3a3a3a;
     display: flex;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in;
     overflow: hidden;
     user-select: none;
 }
 
 .card3:hover {
-    transform: translate(20px);
+    transform: translate(10px);
 }
 
 .card3:hover .presentation {
@@ -308,7 +308,7 @@ body {
     border-radius: 20px;
     border: 1px solid #3a3a3a;
     display: flex;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in;
     overflow: hidden;
     user-select: none;
 }
@@ -321,7 +321,7 @@ body {
 }
 
 .card4:hover {
-    transform: translate(20px);
+    transform: translate(10px);
 }
 
 .review {
