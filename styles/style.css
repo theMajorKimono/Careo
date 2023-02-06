@@ -166,7 +166,7 @@ body {
 }
 
 .card1 {
-    width: 60vh;
+    width: 64vh;
     height: 25vh;
     background-color: #ffffff10;
     margin-bottom: 50px;
@@ -188,7 +188,8 @@ body {
 
 .card1 p {
     width: 60%;
-    padding: 11px 0 0 7px;
+    padding-top: 9vh;
+    text-align: center;
     color: #ffffffad;
     font-family: 'Open Sans', sans-serif;
 }
@@ -202,7 +203,7 @@ body {
 }
 
 .card2 {
-    width: 60vh;
+    width: 64vh;
     height: 25vh;
     background-color: #ffffff10;
     margin-bottom: 50px;
@@ -224,13 +225,14 @@ body {
 
 .consistency {
     font-weight: 600;
-    font-size: larger;
+    font-size: 4vh;
     color: #b0aa87;
 }
 
 .card2 p {
     width: 60%;
-    padding: 20px 0 0 7px;
+    padding-top: 9vh;
+    text-align: center;
     color: #ffffffad;
     font-family: 'Open Sans', sans-serif;
 }
@@ -254,7 +256,7 @@ body {
 }
 
 .card3 {
-    width: 60vh;
+    width: 64vh;
     height: 25vh;
     background-color: #ffffff10;
     margin-bottom: 50px;
@@ -276,9 +278,10 @@ body {
 
 .card3 p {
     width: 60%;
-    padding: 12px 0 0 7px;
+    padding-top: 9vh;
     color: #ffffffad;
     font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
 
 .presentation {
@@ -290,7 +293,7 @@ body {
 }
 
 .card4 {
-    width: 60vh;
+    width: 64vh;
     height: 25vh;
     background-color: #ffffff10;
     margin-bottom: 50px;
@@ -304,7 +307,8 @@ body {
 
 .card4 p {
     width: 60%;
-    padding: 20px 0 0 7px;
+    padding-top: 9vh;
+    text-align: center;
     color: #ffffffad;
     font-family: 'Open Sans', sans-serif;
 }
