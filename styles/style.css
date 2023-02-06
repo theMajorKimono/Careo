@@ -157,9 +157,9 @@ body {
 
 .dna-img {
     position: absolute;
-    z-index: 0;
+    z-index: -22;
     opacity: 0.1;
-    width: 100%;
+    width: 80vw;
     height: 78vh;
     object-fit: cover;
 }
